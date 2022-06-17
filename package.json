@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Snippets of discord-akairo framework for discord.js",
   "publisher": "swiizyy",
-  "icon": "https://cdn.discordapp.com/attachments/780114189917749308/987328860997701692/discord-akairo.png",
+  "icon": "img/discord-akairo.png",
   "engines": {
     "vscode": "^1.22.0"
   },
