@@ -1,0 +1,13 @@
+{
+  "Template of index": {
+    "prefix": "aka.index",
+    "body": [
+      "const ${2:class-of-client} = require(\"${1:path-to-client}\");",
+      "",
+      "const ${3:client} = new ${2:class-of-client}();",
+      "",
+      "${3:client}.init();${0}"
+    ],
+    "description": "Generate template of index.js"
+  }
+}
