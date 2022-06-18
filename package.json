@@ -1,7 +1,7 @@
 {
   "name": "akairo-snippets",
   "displayName": "Discord Akairo Snippets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Snippets of discord-akairo framework for discord.js",
   "publisher": "swiizyy",
   "icon": "img/discord-akairo.png",
