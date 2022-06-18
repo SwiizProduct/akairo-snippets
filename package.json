@@ -13,5 +13,13 @@
 	],
   "repository": "https://github.com/SwiizProduct/akairo-snippets",
   "author": "Williams Bussat",
-  "license": "MIT"
+  "license": "MIT",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "snippets/javascript.json"
+      }
+    ]
+  }
 }
