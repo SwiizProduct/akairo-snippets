@@ -9,5 +9,23 @@
       "${3:client}.init();${0}"
     ],
     "description": "Generate template of index.js"
+  },
+  "Template of simple client": {
+    "prefix": "aka.client-t-s",
+    "body": [
+      "const { ${2:AkairoClient} } = require('${1:discord-akairo}');",
+      "",
+      "module.exports = class ${3:className} extends ${2:AkairoClient}{",
+      "    constructor() {",
+      "        super({",
+      "            intents: [${4}],",
+      "        }, { ownerID: '${5}'});",
+      "    }",
+      "",
+      "    init() {",
+      "        this.login();${0}",
+      "    }",
+      "}"
+    ]
   }
 }
